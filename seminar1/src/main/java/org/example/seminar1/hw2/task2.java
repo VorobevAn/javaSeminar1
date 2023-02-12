@@ -7,13 +7,14 @@ public class task2 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int result = 0;
-
-        for(int sum = 0; n != 0; n = scanner.nextInt()) {
+        int sum = 0;
+        while (n != 0) {
             if (n > 0) {
                 sum += n;
             } else {
                 result = sum;
             }
+            n = scanner.nextInt();
         }
         System.out.println(result);
     }
