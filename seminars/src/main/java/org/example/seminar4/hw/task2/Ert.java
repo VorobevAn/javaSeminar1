@@ -1,12 +1,13 @@
 package org.example.seminar4.hw.task2;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class Ert {
     public static void main(String[] args) {
-        String str = "()[]{}";
-        Stack<Character> stack = new Stack<>();
+        String str = "()[](){}";
+        LinkedList<Character> stack = new LinkedList<>();
         for (char i : str.toCharArray()) {
             if (i == '(')
                 stack.push(')');

@@ -1,5 +1,7 @@
 package org.example.seminar3.hw.task3;
 
+//Найти названия книг, в которых простое количество страниц, фамилия автора содержит «А» и год издания после 2010 г, включительно.
+
 import java.util.ArrayList;
 import java.util.List;
 
